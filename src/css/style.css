@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+body {
+    max-width: 1286px;
+    margin: 0 auto;
+    font-family: 'Encode Sans', sans-serif;
+    overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin: 25px 0;
+}
+
+header .logo {
+    width: 171px;
+    height: 36px;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f5f6f7;
+    padding: 12px 10px;
+    border-radius: 4px;
+    width: 1286px;
+}
+
+header .navigation li {
+    font-size: 19px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+header .navigation li:hover {
+    transform: scale(1.1);
+}
+
+.navigation .g1 {
+    color: #C3170C;
+}
+
+.navigation .globo {
+    color: #1E4B9B;
+}
+
+.navigation .valor {
+    color: #006766;
+}
+
+.navigation .ge {
+    color: #07AA47;
+}
+
+.navigation .cartola {
+    color: #E3662B;
+}
+
+.navigation .play {
+    color: #FB0735;
+}
+
+.navigation .dropz {
+    color: #FF75BB;
+}
+
+.navigation .show {
+    color: #EC7D00;
+}
+
+.navigation .quem {
+    color: #323333;
+}
+
+.navigation .receita {
+    color: #A81D83;
+}
+
+/* MAIN */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1px 1fr);
+    gap: 80px;
+    margin: 0 auto;
+    height: 80vh;
+    max-width: 1276px;
+}
+
+.separation-vertical {
+    width: 1px;
+    height: 80%;
+    background-color: #EBEDEF;
+}
+
+.destaque {
+    max-width: 628px;
+}
+
+.destaque .title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.destaque .title-container h1 {
+    font-size: 42px;
+    color: #C3170C;
+}
+
+.destaque .title-container .description-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #303134;
+}
+
+
+.destaque .container-news {
+    display: flex;
+    margin: 25px 0;
+    gap: 24px;
+}
+
+.destaque .container-news .news {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.destaque .container-news .news img {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.destaque .container-news .news img:hover {
+    transform: scale(1.1);
+}
+
+.destaque .container-news .news .news-about {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.destaque .container-news .news .news-about h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C3170C;
+}
+
+.destaque .container-news .news .news-about span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+}
+
+.destaque .container-news .news .news-about p {
+    font-size: 14px;
+    color: #2F3134;
+}
+
+.separation {
+    width: auto;
+    height: 1px;
+    background-color: #EBEDEF;
+}
+
+.other-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1px 1fr);
+    gap: 30px;
+    transform: translateX(-40px);
+}
+
+.other-news .news-ge {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.other-news .news-ge .ge-new {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.other-news .news-ge .ge-new img {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.other-news .news-ge .ge-new img:hover {
+    transform: scale(1.1);
+}
+
+.other-news .news-ge .ge-new .ge-about {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 300px;
+}
+
+.other-news .news-ge .ge-new .ge-about h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #16AE54;
+}
+
+.other-news .news-ge .ge-new .ge-about span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+}
+
+.other-news .news-ge .ge-new .ge-about p {
+    font-size: 14px;
+    color: #2F3134;
+}
+
+.other-news .news-ge .ge-new .gshow-about {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 300px;
+}
+
+.other-news .news-ge .ge-new .gshow-about h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #EC8006;
+}
+
+.other-news .news-ge .ge-new .gshow-about span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3134;
+}
+
+.other-news .news-ge .ge-new .ge-about p {
+    font-size: 14px;
+    color: #2F3134;
+}
+
